@@ -1,5 +1,6 @@
-- name: Create a JIRA issue
-  uri:
+---
+  - name: Create a JIRA issue
+    uri:
     url: curl -X  GET 'https://vcsa1.home.local/rest/vcenter/vm'
     method: POST
     body: "{{ lookup('file','issue.json') }}"
