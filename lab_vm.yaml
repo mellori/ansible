@@ -1,5 +1,5 @@
 ---
-  - name: Create a JIRA issue
+ - name: Create a JIRA issue
     uri:
     url: curl -X  GET 'https://vcsa1.home.local/rest/vcenter/vm'
     method: POST
